@@ -1,0 +1,93 @@
+#video {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    object-fit: none;
+}
+
+.hero .content {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+}
+
+.hero .content h1 {
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Syne' ;
+    left: 100;
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+
+.hero .btn {
+    margin: 1rem .1rem ;
+    border-radius: 5px;
+}
+
+.social{
+    padding: 2rem;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+
+.margen{
+    margin: 3rem;
+}
+
+
+@media screen and (max-width:550px) {
+
+    .hero{
+        flex: 1;
+        
+    }
+    .hero .content h1 {
+        font-size: 2rem;
+        font-family: 'Syne';
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 478px;
+        margin-top: 0;
+    }
+
+
+
+    .content p {
+        font-family: 'Be Vietnam Pro';
+        font-size: 1rem;
+        margin-bottom: 1.6rem;
+        padding: 4rem;
+        align-items: start;
+
+    }
+
+    .buttons{
+     padding: 30px;
+    }
+
+    .social{
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+ 
+    }
+
+    .hero .content .social {
+        padding-bottom: 3rem;
+        margin-bottom: 50px;
+    }
+
+}
+
+

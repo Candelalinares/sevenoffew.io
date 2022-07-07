@@ -1,0 +1,140 @@
+.owl-theme .owl-dots .owl-dot span{
+    background:url('../assets/heroImg.jpg') no-repeat center center/cover;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #A6382E  !important;
+    border: 1px solid #fff;
+  }
+  .owl-theme .owl-dots{
+   margin-top: 1rem !important;
+  }
+  
+  .owl.dot{
+  background-color: #FD399B;
+  }  
+  .owl-theme{
+    margin-top: 5rem;
+    margin-bottom: 30rem;
+  }
+  
+  
+  
+  .owl-stage{
+    margin-top: 5rem;
+  
+  }
+  
+  .my-12{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    background: url('../assets/heroImg.jpg') no-repeat center center/cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  
+  .right{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 600px;
+    max-height: 60rem;
+    background: linear-gradient(90deg, rgba(166, 56, 46, 0.74) 0%, rgba(238, 130, 238, 0) 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 10rem;
+  }
+  
+  .right p{
+    display: flex;
+    align-items: center;
+    margin: 1.2rem 0;
+    font-family: 'Be Vietnam Pro';
+    color: #fff;
+    line-height: 2rem;
+    text-align: justify;
+    font-weight: 100;
+  }
+  
+  .left{
+    margin: auto;
+    padding: 1rem;
+    max-width: 850px;
+    text-align: center;
+    margin-right: -0;
+  }
+  
+  .left p{
+  font-weight: 100;
+  }
+  
+  img{
+  width: 50%;
+  }
+  
+  .owl-carousel .owl-item img {
+    display: block;
+  }
+  
+  .owl-nav{
+    color: aliceblue;
+  
+  }
+  
+  .item{
+    background-color: #00000000;
+    padding: 1rem;
+    align-items: center;
+  }
+  
+  h1{
+    color: #ffffff;
+    font-family: "Syne";
+  }
+  
+  h2{
+    font-family: 'Syne';
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    font-weight: 300;
+  
+  }
+  
+  p{
+    font-family: "Be Vietnam Pro";
+    color: rgb(98, 98, 98);
+  }
+  
+  @media screen and (max-width: 550px){
+      .my-12{
+        grid-template-columns: 1fr;
+    
+      }
+    .owl-stage-outer{
+        width: 300px;
+        margin: 0px;
+      }
+    .owl-carousel .owl-theme .left .owl-loaded .owl-drag{
+      width: 432px;
+      height: 532px;
+      padding-right: 0px;
+    }
+  
+    .my-12 .right{
+      max-width: 450px;
+      height: auto;
+      margin: 1rem;
+    }
+  
+    .my-12 .left{
+        justify-content: center;
+      max-width: 550px;
+  
+    }
+  
+  }  

@@ -1,0 +1,185 @@
+.col {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    background: url('../assets/heroImg.jpg') no-repeat center center/cover;
+}
+
+.nuevo{
+    font-family: 'Syne' ;
+}
+
+
+.btn{
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Syne';
+  }
+
+.btn:hover{
+    color: #941686;
+    background: rgb(255, 255, 255);
+  }
+
+h1{
+    font-size: 23px;
+}
+
+.col .izq {
+    text-align: center;
+    margin: auto;
+    padding: 1rem 4rem;
+    max-width: 450px;
+    height: 70rem;
+    background: linear-gradient(179deg, rgba(166, 56, 46, 0.84) 0%, rgba(238, 130, 238, 0) 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+
+.col .izq p {
+    margin: 1.2rem 0;
+    font-family: 'Be Vietnam Pro';
+    color: #fff;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.col .izq h2{
+    font-family: 'Syne';
+    font-size: 18px;
+    color: #fff;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    text-align: start;
+}
+
+.col .der {
+    text-align: center;
+    height: auto;
+    padding: 1rem 4rem;
+    width: 480px;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+    padding-top: 15rem;
+    background: linear-gradient(0deg, rgba(148, 22, 134, 0.57) 0%, rgba(238, 130, 238, 0) 100%);
+}
+
+
+.col .der p {
+    margin: 1.2rem 0;
+    font-family: 'Be Vietnam Pro';
+    color: #fff;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.col .der h2{
+    text-align: start;
+    font-size: 15px;
+}
+
+.col .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+
+}
+
+.der .img {
+    max-width: 80%;
+    margin-bottom: 5rem;
+}
+
+
+.at_item {
+    margin-top: 5rem;
+    animation-name: shake-vertical;
+    animation-duration: 15s;
+    animation-timing-function: ease;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    /* shorthand 
+    animation: shake-vertical 15s ease 0.4s infinite normal none;
+    */ 
+  }
+  @keyframes shake-vertical {
+    0%{
+      transform: translateY(0);
+    }
+    10%{
+      transform: translateY(-8px);
+    }
+    20%{
+      transform: translateY(8px);
+    }
+    30%{
+      transform: translateY(-8px);
+    }
+    40%{
+      transform: translateY(8px);
+    }
+    50%{
+      transform: translateY(-8px);
+    }
+    60%{
+      transform: translateY(8px);
+    }
+    70%{
+      transform: translateY(-8px);
+    }
+    80%{
+      transform: translateY(6.4px);
+    }
+    90%{
+      transform: translateY(-6.4px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+  
+
+@media screen and (max-width: 550px) {
+    .col {
+        grid-template-columns: 1fr;
+    }
+
+    .col .izq{
+        margin: 1rem;
+        margin-top: 4rem;
+        
+    }
+    .col .der{
+        margin: 1rem;
+
+    }
+    .der .img {
+      max-width: 90%;
+  }
+
+    .col .izq h1{
+        font-size: 26px;
+    }
+    .col .izq h2{
+        font-size: 15px;
+    }
+
+    .col .der h1{
+        font-size: 23px;
+    }
+
+}

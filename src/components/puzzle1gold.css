@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    background: url('../assets/heroImg.jpg') no-repeat center center/cover;
+}
+
+
+.card-container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.card-container .card {
+    border: 1px solid rgb(245, 245, 245);
+}
+
+.card-container .card:hover{
+    border: 3px solid rgb(245, 245, 245) ;
+    background-color: #00000057;
+}
+
+.card {
+    text-align: center;
+    padding: 0,5rem;
+    border-radius: 5px;
+    height: 650px;
+
+}
+
+.container input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 20px 0;
+    border: 3px solid #941686;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+}
